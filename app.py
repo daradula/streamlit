@@ -2,9 +2,6 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import pickle
-import matplotlib.pyplot as plt
-import seaborn as sns
-from sklearn.metrics import accuracy_score, confusion_matrix, classification_report
 
 # Load dataset
 df = pd.read_csv("Titanic_train.csv")  # Make sure the Titanic dataset CSV is in the same folder
